@@ -21,16 +21,16 @@ Zero IA
   - calendario.db
   - token_gmail.json
 
-* agente.py: inicio Zero IA y conecto las herramientas al agente.
-* calendario.py: gestiono mis citas con SQLite.
-* tiempo.py: consulto las previsiones meteorológicas.
-* correo.py: me conecto a Gmail y consulto información de mis mensajes.
-* system_prompt.txt: guardo las instrucciones de mi asistente.
-* requirements.txt: anoto las librerías que necesita mi proyecto.
-* .env: guardo mi clave API de Gemini.
-* credentials.json: guardo la configuración OAuth que descargo de Google Cloud.
-* calendario.db: almaceno mis citas; se crea al preparar el calendario.
-* token_gmail.json: guardo mi autorización de Gmail después del primer inicio de sesión.
+-> agente.py: inicio Zero IA y conecto las herramientas al agente.
+-> calendario.py: gestiono mis citas con SQLite.
+-> tiempo.py: consulto las previsiones meteorológicas.
+-> correo.py: me conecto a Gmail y consulto información de mis mensajes.
+-> system_prompt.txt: guardo las instrucciones de mi asistente.
+-> requirements.txt: anoto las librerías que necesita mi proyecto.
+-> .env: guardo mi clave API de Gemini.
+-> credentials.json: guardo la configuración OAuth que descargo de Google Cloud.
+-> calendario.db: almaceno mis citas; se crea al preparar el calendario.
+-> token_gmail.json: guardo mi autorización de Gmail después del primer inicio de sesión.
 
 # Cómo lo preparo
 Primero necesito tener Python instalado. Desde la carpeta del proyecto instalo las dependencias:
