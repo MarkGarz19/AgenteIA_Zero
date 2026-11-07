@@ -10,7 +10,7 @@ Qué puede hacer
   
 # Archivos de mi proyecto
 Zero IA 
-  -  main.py
+  -  agente.py
   -  calendario.py
   - tiempo.py
   - correo.py
@@ -43,7 +43,7 @@ Para usar Gmail, activo la API de Gmail en Google Cloud, configuro OAuth para un
 
 # Cómo lo ejecuto
 Inicio mi asistente con:
-python main.py
+python agente.py
 Puedo escribir preguntas como estas:
 - «Zero, ¿qué citas tengo guardadas?»
 - «Zero, recuérdame una reunión mañana a las 17:00».
