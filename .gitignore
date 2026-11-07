@@ -1,0 +1,13 @@
+# Mis claves y credenciales
+.env
+credentials.json
+token_gmail.json
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Mi base de datos local
+calendario.db
