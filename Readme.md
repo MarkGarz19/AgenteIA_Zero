@@ -9,17 +9,17 @@ Qué puede hacer
 - Responder en español o inglés: personalizo su comportamiento en system_prompt.txt.
   
 # Archivos de mi proyecto
-Zero IA/
-├── main.py
-├── calendario.py
-├── tiempo.py
-├── correo.py
-├── system_prompt.txt
-├── requirements.txt
-├── .env
-├── credentials.json
-├── calendario.db
-└── token_gmail.json
+Zero IA 
+  -  main.py
+  -  calendario.py
+  - tiempo.py
+  - correo.py
+  - system_prompt.txt
+  - requirements.txt
+  - .env
+  - credentials.json
+  - calendario.db
+  - token_gmail.json
 
 - agente.py: inicio Zero IA y conecto las herramientas al agente.
 - calendario.py: gestiono mis citas con SQLite.
@@ -32,7 +32,7 @@ Zero IA/
 - calendario.db: almaceno mis citas; se crea al preparar el calendario.
 - token_gmail.json: guardo mi autorización de Gmail después del primer inicio de sesión.
 
-Cómo lo preparo
+# Cómo lo preparo
 Primero necesito tener Python instalado. Desde la carpeta del proyecto instalo las dependencias:
 python -m pip install -r requirements.txt
 
@@ -41,7 +41,7 @@ GEMINI_API_KEY=mi_clave_api
 
 Para usar Gmail, activo la API de Gmail en Google Cloud, configuro OAuth para una aplicación de escritorio y guardo el archivo descargado como credentials.json en la carpeta del proyecto. En la primera conexión autorizo el acceso desde el navegador.
 
-Cómo lo ejecuto
+# Cómo lo ejecuto
 Inicio mi asistente con:
 python main.py
 Puedo escribir preguntas como estas:
@@ -52,9 +52,10 @@ Puedo escribir preguntas como estas:
 - «Zero, dime los últimos cinco correos».
 Para terminar escribo salir.
 
-Privacidad y límites
+# Privacidad y límites
 Mi calendario se guarda de forma local en SQLite. No subo .env, credentials.json ni token_gmail.json a repositorios públicos. Cuando consulto Gmail a través del agente, los datos recuperados pueden enviarse a Gemini para generar una respuesta.
 
 Por ahora, mi integración de Gmail solo consulta metadatos de los mensajes: no lee el cuerpo completo, no envía correos y no los borra. La herramienta meteorológica consulta hoy y mañana; no es un sistema de alertas automáticas.
-Próximas mejoras
+
+# Próximas mejoras
 Quiero seguir mejorando Zero IA para que pueda ayudarme con más tareas y resulte cada vez más cómoda de utilizar.
