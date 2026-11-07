@@ -1,12 +1,14 @@
-Zero IA
+# Zero IA
 Zero IA es mi asistente personal hecho en Python. Lo he creado para poder hablar con una inteligencia artificial desde la terminal y tener en un mismo sitio mi calendario, el tiempo y mi correo de Gmail.
+
 Qué puede hacer
 - Conversar conmigo: utilizo Gemini a través de Strands Agents.
 - Gestionar mi calendario: guardo, consulto y elimino citas en una base de datos SQLite local.
 - Consultar el tiempo: puedo preguntar por la previsión de hoy o mañana en una ciudad gracias a Open-Meteo.
 - Consultar Gmail: puedo ver el remitente, el asunto y la fecha de los últimos cinco correos, y saber cuántos mensajes tengo sin leer. El acceso a Gmail es de solo lectura.
 - Responder en español o inglés: personalizo su comportamiento en system_prompt.txt.
-Archivos de mi proyecto
+  
+# Archivos de mi proyecto
 Zero IA/
 ├── main.py
 ├── calendario.py
